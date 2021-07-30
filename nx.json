@@ -27,12 +27,22 @@
     ]
   },
   "projects": {
+    "app": {
+      "tags": []
+    },
+    "app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app"]
+    },
     "basic": {
       "tags": []
     },
     "basic-e2e": {
       "tags": [],
       "implicitDependencies": ["basic"]
+    },
+    "data": {
+      "tags": []
     }
   }
 }
